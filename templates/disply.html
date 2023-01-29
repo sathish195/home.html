@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Page Title</title>
+    </head>
+    <body bgcolor="blue">
+    <h3> Complete Part Deatals </h3>
+
+        {% for x in mymembers %}<br>
+        Part_Id={{x.id}}<br>
+        Part_Name={{x.Part_Name}}<br>
+        Part_Modifaction_Date={{x.Part_Modifaction_Date}}<br>
+        Part_Expiry_Date{{x.Part_Expiry_Date}}<br>
+          
+        {% endfor %}
+    
+    
+    </body>
+    </html>
